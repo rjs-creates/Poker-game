@@ -1,0 +1,6 @@
+﻿  main.c
+C:\Users\rjs\Documents\Github\lab-2-raj2513\Project1\Project1\main.c(34,9): warning C4013:  'shuffle' undefined; assuming extern returning int
+C:\Users\rjs\Documents\Github\lab-2-raj2513\Project1\Project1\main.c(53,11): warning C4013:  'ShowHand' undefined; assuming extern returning int
+C:\Users\rjs\Documents\Github\lab-2-raj2513\Project1\Project1\main.c(63,27): warning C4013:  'HighestRank' undefined; assuming extern returning int
+C:\Users\rjs\Documents\Github\lab-2-raj2513\Project1\Project1\main.c(67,8): warning C4013:  'Winner' undefined; assuming extern returning int
+LINK : fatal error LNK1168: cannot open C:\Users\rjs\Documents\Github\lab-2-raj2513\Project1\Debug\Project1.exe for writing
