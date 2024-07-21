@@ -1,13 +1,3 @@
-/************************************************************
- *  File:       Card.c
- *  Project:    Lab 2
- *  Author:     Rajeshwar Singh
- *  Version:    1.0
- *  Date:       16 March 2020
- *  Course:     CMPE1700
- *  Instructor: AJ Armstrong
- *  Description: Contains function to manipulate the deck of cards and hands
- * *********************************************************/
 #include <stdlib.h>
 #include <stdio.h>
 #include <ctype.h>
