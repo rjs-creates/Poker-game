@@ -1,16 +1,4 @@
 #pragma once
-
-/************************************************************
-*  File:       card.h
-*  Project:    Lab 2
-*  Author:     Rajeshwar Singh
-*  Version:    1.0
-*  Date:       16 March 2020
-*  Course:     CMPE1700
-*  Instructor: AJ Armstrong
-*  Description: Declaration of enums and structs for the program
-* *********************************************************/
-
 //Intializing an enum for the card value
 typedef enum
 {

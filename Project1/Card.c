@@ -1,13 +1,3 @@
-/************************************************************
- *  File:       Card.c
- *  Project:    Lab 2
- *  Author:     Rajeshwar Singh
- *  Version:    1.0
- *  Date:       16 March 2020
- *  Course:     CMPE1700
- *  Instructor: AJ Armstrong
- *  Description: Contains function to manipulate the deck of cards and hands
- * *********************************************************/
 #include <stdlib.h>
 #include <stdio.h>
 #include <ctype.h>
@@ -26,52 +16,60 @@ void ShowHand(Cards Deck[])
 	//Looping between all the cards in the deck
 	for (int i = 0; i < 5; i++)
 	{
-		//Checking the value of card and printing its respective value
-		switch (Deck[i].val)
-		{
-		case 0: printf("Ace of ");
-			break;
-		case 1: printf("Two of");
-			break;
-		case 2: printf("Three of");
-			break;
-		case 3: printf("Four of");
-			break;
-		case 4: printf("Five of");
-			break;
-		case 5: printf("Six of");
-			break;
-		case 6: printf("Seven of");
-			break;
-		case 7: printf("Eight of ");
-			break;
-		case 8: printf("Nine of");
-			break;
-		case 9: printf("Ten of");
-			break;
-		case 10: printf("Jack of");
-			break;
-		case 11: printf("Queen of");
-			break;
-		case 12: printf("King of");
-			break;
-		}
-
-		//Checking card suit and printing its suit
-		switch (Deck[i].suit)
-		{
-		case 0: printf(" Diamond\n");
-			break;
-		case 1: printf(" Clubs\n");
-			break;
-		case 2: printf(" Hearts\n");
-			break;
-		case 3: printf(" Spades\n");
-			break;
-		}
+		printCardValue(Deck[i].value);
+		printCardSuit(Deck[i].suit);
 	}
-
 }
+
+void printCardValue(int cardValue) {
+	//Checking the value of card and printing its respective value
+	switch (value)
+	{
+	case 0: printf("Ace of ");
+		break;
+	case 1: printf("Two of");
+		break;
+	case 2: printf("Three of");
+		break;
+	case 3: printf("Four of");
+		break;
+	case 4: printf("Five of");
+		break;
+	case 5: printf("Six of");
+		break;
+	case 6: printf("Seven of");
+		break;
+	case 7: printf("Eight of ");
+		break;
+	case 8: printf("Nine of");
+		break;
+	case 9: printf("Ten of");
+		break;
+	case 10: printf("Jack of");
+		break;
+	case 11: printf("Queen of");
+		break;
+	case 12: printf("King of");
+		break;
+	}
+}
+
+void printCardSuit(int cardSuit) {
+	//Checking card suit and printing its suit
+	switch (cardSuit)
+	{
+	case 0: printf(" Diamond\n");
+		break;
+	case 1: printf(" Clubs\n");
+		break;
+	case 2: printf(" Hearts\n");
+		break;
+	case 3: printf(" Spades\n");
+		break;
+	}
+}
+
+
 
 /*********************************************************************
  * Function:    shuffle
